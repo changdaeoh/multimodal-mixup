@@ -6,6 +6,12 @@
 https://github.com/mlfoundations/open_clip
 
 ```python
+def sph_inter(a,b,s):
+    theta = torch.acos( (a*b).sum(dim=[1] )).view(a.shape[0],1)
+    n1 = torch.sin(s*theta)/torch.sin(theta)*a
+    n2 = torch.sin((1-s)*theta)/torch.sin(theta)*b
+    return n1+n2
+
 class ClipLoss(nn.Module):
 
     def __init__(
