@@ -2,8 +2,9 @@
 >[Changdae Oh](https://changdaeoh.github.io/)\*, [Junhyuk So](https://github.com/junhyukso)\*, [YongTaek Lim](https://github.com/teang1995), [Hoyoon Byun](https://scholar.google.com/citations?user=55yqBlMAAAAJ&hl=en), [Minchul Shin](https://scholar.google.com/citations?user=52NtRk8AAAAJ&hl=en), [Jong-June Jeon](https://scholar.google.co.kr/citations?user=A-E3uEMAAAAJ&hl=ko), and [Kyungwoo Song](https://scholar.google.com/citations?user=HWxRii4AAAAJ&hl=ko)
 
 ## Main experiment with OpenAI CLIP checkpoints
-* prepare Flickr30k, MSCOCO (2017 ver), and SIMAT datasets in `data/`
-* refer `scripts/m2mix.sh` and `scripts/m3mix.sh` script files to reproduce our experiments
+* prepare Flickr30k, MSCOCO (2017 ver), and SIMAT datasets in your datapath
+* set DATA_PATH variable in `main.py` to yours
+* see `scripts/m2mix.sh` and `scripts/m3mix.sh` script files to reproduce our experiments
 
 ## Preview for OpenCLIP experiment: ClipLoss Class in `OpenCLIP>src>open_clip>loss.py`
 https://github.com/mlfoundations/open_clip
