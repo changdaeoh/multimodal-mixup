@@ -3,7 +3,7 @@
 
 ## Main experiment with OpenAI CLIP checkpoints
 * prepare [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/), [MSCOCO (2017 ver)](https://cocodataset.org/#home), and [SIMAT](https://github.com/facebookresearch/SIMAT) datasets in your datapath
-* set DATA_PATH variable in `main.py` to yours
+* set `DATA_PATH` variable in `main.py` to yours
 * see `scripts/m2mix.sh` and `scripts/m3mix.sh` script files to reproduce our experiments
 
 ## Preview for OpenCLIP experiment: ClipLoss Class in `OpenCLIP>src>open_clip>loss.py`
